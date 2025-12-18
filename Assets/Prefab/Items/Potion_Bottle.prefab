@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7060585905183131842
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.39942
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.24635
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.75041
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 18c7b8e097d61c748b869eb2fe761dca, type: 2}
+    - target: {fileID: 919132149155446097, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: m_Name
+      value: Potion_Bottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2051793177261798298, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f1a30a6ad7850bb489a395e474d29eeb, type: 2}
+    - target: {fileID: 3192076612052961539, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 28fc88e1d163df4489909ded83ffdff1, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4368049775421278324}
+  m_SourcePrefab: {fileID: 100100000, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+--- !u!4 &3875181841068028996 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6069537430845095046, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+  m_PrefabInstance: {fileID: 7060585905183131842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4395814348957679218 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2522811130674547024, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+  m_PrefabInstance: {fileID: 7060585905183131842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7871540808617244051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3a5277e6c4f105646b3bd11ec25547d6, type: 3}
+  m_PrefabInstance: {fileID: 7060585905183131842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4368049775421278324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7871540808617244051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1fcd92c93b6fe4dbda2423d4800015, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bottle
+  liquidMesh: {fileID: 3875181841068028996}
+  corkMesh: {fileID: 4395814348957679218}

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6224547277018433485
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7865424500980128078, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 711a20558cf1bfa428b0720b2548fdf5, type: 2}
+    - target: {fileID: -7250050399828263939, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9aecf646fc983ef49bba72af888b10fc, type: 2}
+    - target: {fileID: -5284477506048304403, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4348d3295c4f6e04aba5aff6e039cd4a, type: 2}
+    - target: {fileID: 919132149155446097, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: m_Name
+      value: Brick_Wall_DoorSingle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109904480008157025, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 02e4880cc6b358c4e936f491a90f2632, type: 2}
+    - target: {fileID: 8716063011738798099, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: adc311d3b9cee634eb55740151f2d6d5, type: 3}
