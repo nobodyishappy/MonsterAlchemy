@@ -57,7 +57,12 @@ public class PlayerController : MonoBehaviour
 
     private void Interacted(RaycastHit hit)
     {
-        Interactable interactable = hit.collider.GetComponent<Interactable>();
+        Interactable interactable = hit.collider.GetComponentInParent<Interactable>();
+        if (interactable == null)
+        {
+            return;
+        }
+
         if (isHolding)
         {
             if (interactable.PlaceItem(item))
