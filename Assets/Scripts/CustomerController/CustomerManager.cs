@@ -37,15 +37,6 @@ public class CustomerManager : MonoBehaviour
 
     private void Update()
     {
-        if (GameHandler.Instance.isGameEnded)
-        {
-            foreach(Transform customer in customerQueue.EndGame())
-            {
-                Destroy(customer.gameObject);
-            }
-            return;
-        }
-
         if (!customerCooldown & customerQueue.HasSpaceInQueue())
         {
             customerCooldown = true;
@@ -72,5 +63,16 @@ public class CustomerManager : MonoBehaviour
         }
         customer.GetComponent<CustomerController>().SetNewDestination(counterPosition);
         return true;
+    }
+
+    public void EndGame()
+    {
+        customerQueue.EndGame();
+        CustomerController[] customerControllers = FindObjectsByType<CustomerController>(FindObjectsSortMode.None);
+        for (int i = 0; i < customerControllers.Length; i++)
+        {
+            Destroy(customerControllers[i].gameObject);
+        }
+        enabled = false;
     }
 }

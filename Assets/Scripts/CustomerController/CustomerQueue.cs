@@ -37,11 +37,9 @@ public class CustomerQueue
         return customer;
     }
 
-    public List<Transform> EndGame()
+    public void EndGame()
     {
-        List<Transform> temp = customerQueue;
         customerQueue = new();
-        return temp;
     }
 
     private void ReallocateCustomers()

@@ -10,6 +10,9 @@ public class GameUI : MonoBehaviour
     [SerializeField] private Transform endScreen;
     [SerializeField] private Transform scoreList;
 
+    [Header("Pause Screen")]
+    [SerializeField] private Transform pauseScreen; 
+
     private void Awake()
     {
         endScreen.gameObject.SetActive(false);
@@ -75,5 +78,17 @@ public class GameUI : MonoBehaviour
         }
 
         endScreen.gameObject.SetActive(true);
+    }
+
+    public void PauseGame()
+    {
+        pauseScreen.gameObject.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    public void UnpauseGame()
+    {
+        pauseScreen.gameObject.SetActive(false);
+        Time.timeScale = 1f;
     }
 }

@@ -2,11 +2,9 @@ using UnityEngine;
 
 public class Blueprint : MonoBehaviour
 {
-    [SerializeField]
-    private SkinnedMeshRenderer floorPlan;
+    [SerializeField] private SkinnedMeshRenderer floorPlan;
 
-    [SerializeField]
-    private float morphSpeed;
+    [SerializeField] private float morphSpeed;
 
     private bool isMorphing = false;
     private float blendWeight = 0;

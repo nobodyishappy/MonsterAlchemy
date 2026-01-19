@@ -78,7 +78,7 @@ public class PlayerController : MonoBehaviour
             if (interactable.GetHasItem())
             {
                 Transform newItem = interactable.TakeItem();
-                if (newItem  == null)
+                if (newItem == null)
                 {
                     return;
                 }
